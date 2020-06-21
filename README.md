@@ -50,7 +50,7 @@ Create a new address and transfer a piconero to that address.
 437M8FuCJFAhUC3kLvn1iYDDn2uUbi36gaidRPQigUgZAwfmGCL8ZS1C76NFLrZjN4EEgVBEBeD4D2MJKEWSW936BQXCYTB
 ```
 
-##Validation
+## Validation
 
 The validator pretty much does the same steps and calls:
 

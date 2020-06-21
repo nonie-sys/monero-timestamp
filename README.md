@@ -11,3 +11,36 @@ The publisher can publicly reveal the digest and if  a conflict arises they can 
 On the Bitcoin blockchain the hash is stored directly on the blockchain. Monero **wont** allow this. But you can use a 256 Bit hash as spend key (sha256 or keccac). To prove you have known that hash at a specific time - you need to send a small amount of XMR to a public address, generated from that spend key. One piconero (2^-12) is sufficient.
 
 ## --generate-from-spend-key
+
+--generate-from-spend-key creates a deteministic wallet from the spend key:
+
+```bash
+ --generate-from-spend-key arg          Generate deterministic wallet from 
+                                        spend key
+```
+
+First you need to create the hash with sha256sum. In this example we use "Hello World" for our document.
+
+```bash
+sha256sum document.pdf
+d2a84f4b8b650937ec8f73cd8be2c74add5a911ba64df27458ed8229da804a26
+```
+Save this hash as your Proof of Existence for some point in the future.
+
+Now you can create a new wallet using that spend key. No password.
+```bash
+$ ./monero-wallet-cli --generate-from-spend-key helloworld
+This is the command line monero wallet. It needs to connect to a monero
+daemon to work correctly.
+WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.
+
+Monero 'Nitrogen Nebula' (v0.16.0.0-release)
+Logging to ./monero-wallet-cli.log
+WARNING: You may not have a high enough lockable memory limit, see ulimit -l
+Secret spend key: d2a84f4b8b650937ec8f73cd8be2c74add5a911ba64df27458ed8229da804a26
+
+Enter a new password for the wallet: 
+Confirm password:
+```
+ 
+ 

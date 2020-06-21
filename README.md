@@ -42,5 +42,19 @@ Secret spend key: d2a84f4b8b650937ec8f73cd8be2c74add5a911ba64df27458ed8229da804a
 Enter a new password for the wallet: 
 Confirm password:
 ```
- 
- 
+
+Create a new address and transfer a piconero to that address.
+
+```bash
+[wallet 437M8F]: address
+437M8FuCJFAhUC3kLvn1iYDDn2uUbi36gaidRPQigUgZAwfmGCL8ZS1C76NFLrZjN4EEgVBEBeD4D2MJKEWSW936BQXCYTB
+```
+
+##Validation
+
+The validator pretty much does the same steps and calls:
+
+```bash
+[wallet 437M8F]: show_transfers
+
+```

@@ -49,7 +49,8 @@ No Password. Now create a new address and transfer a piconero to that address.
 
 ## Validation
 
-The validator pretty much does the same steps and calls:
+The validator requires the hash, the document itself and the date of transaction.
+It is pretty much the same steps + calling:
 
 ```bash
 [wallet 437M8F]: show_transfers

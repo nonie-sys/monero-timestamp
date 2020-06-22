@@ -28,7 +28,7 @@ Save this hash as your Proof of Existence for some point in the future.
  --generate-from-spend-key arg          Generate deterministic wallet from 
                                         spend key
 ```
-Example how to generate a wallet by using that spend key calculated with sha256sum from above. e.G.:
+Example how to generate a wallet by using that spend key from above:
 
 ```bash
 $ ./monero-wallet-cli --generate-from-spend-key myproof.wallet

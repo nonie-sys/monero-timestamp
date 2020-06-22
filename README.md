@@ -51,9 +51,9 @@ Now create a new address and transfer a piconero to that address from any wallet
 ```
 Doeing the transaction will take care of the timestamp.
 
-## Validation
+## Verify
 
-The validator requires the hash, the document itself and the date of transaction.
+The verifier requires the hash, the document itself and the date of transaction.
 It is pretty much the same steps + calling:
 
 ```bash

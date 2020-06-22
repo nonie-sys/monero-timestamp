@@ -22,7 +22,7 @@ Save this hash as your Proof of Existence for some point in the future.
 
 ## Next step: --generate-from-spend-key
 
-*monero-wallet-cli* provides a command line option **--generate-from-spend-key** to create a deteministic wallet from the spend key:
+monero-wallet-cli provides a command line option *--generate-from-spend-key* to create a deteministic wallet from the spend key:
 
 ```bash
  --generate-from-spend-key arg          Generate deterministic wallet from 

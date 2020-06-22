@@ -58,5 +58,6 @@ It is pretty much the same steps + calling:
 
 ```bash
 [wallet 437M8F]: show_transfers
+ 2126035     in   8 blks       2020-06-22 07:07:05       0.000000000001 6440e62c10b33681d50fcf9cdf39870aec5365a997d4a8dd97bb3ed5e3fe58bf 0000000000000000 0.000000000000 437M8F:0.000000000001 0 -
 
 ```

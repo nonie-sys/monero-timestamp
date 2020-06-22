@@ -8,7 +8,7 @@ The publisher can publicly reveal the digest and if  a conflict arises they can 
 
 ## Monero's traits.
 
-With Bitcoin the hash is stored on the blockchain itself. Monero **wont** allow this. But you can use a 256 Bit hash as spend key (sha256 or keccac). To prove you have known that hash at a specific time. All you need is to send a small amount of XMR to a public address, generated from that spend key. One piconero (2^-12) is sufficient. A different aproach but it works great.
+With Bitcoin the hash is stored on the blockchain itself. Monero **wont** allow this. But you can use a 256 Bit hash as spend key (sha256 or keccac). All you need is to send a small amount of XMR to a public address, generated from that spend key. One piconero (2^-12) is sufficient. A different aproach but it works great.
 
 ## First step: Calculate the hash
 
